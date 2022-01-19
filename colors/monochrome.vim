@@ -145,6 +145,12 @@ hi link vimCommentTitle Comment
 
 
 "
+" --- CMake --------------------------------------------------------------------
+"
+call s:hi('cmakeGeneratorExpression', s:lgray)
+call s:hi('cmakeGeneratorExpressions', s:dgray)
+
+"
 " --- Ruby ---------------------------------------------------------------------
 "
 
